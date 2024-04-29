@@ -1,0 +1,51 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    transition: 0.3s;
+}
+
+button:hover {
+    border: 1px solid green;
+    color : green;
+    background-color: transparent;
+}
+
+div {
+    text-align: center;
+}
+
+#quote {
+    margin: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+.quote {
+    opacity: 0;
+}
+
+.fadeIn {
+    animation: fadeInAnimation 1s forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
