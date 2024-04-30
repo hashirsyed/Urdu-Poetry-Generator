@@ -19,12 +19,9 @@ function poetryGenerator(){
     const quote = quotes[index];
     quoteP.innerHTML = quote;
     
-    // Remove fadeIn class to allow re-triggering of animation
     quoteP.classList.remove("fadeIn");
 
-    // Force reflow before re-adding the class to trigger the animation
     void quoteP.offsetWidth;
 
-    // Re-add fadeIn class to trigger animation
     quoteP.classList.add("fadeIn");
 }
